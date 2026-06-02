@@ -1,0 +1,30 @@
+# Pesos treinados (baixar do Drive/Colab)
+*.pt
+models/
+
+# Dataset baixado (vem do Roboflow no Colab)
+dataset/
+*.zip
+
+# Saidas do Ultralytics
+runs/
+yolov8*.pt
+yolo11*.pt
+
+# Caches Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# Mantem placeholders das pastas vazias
+!real_world_test/images/.gitkeep
+!results/.gitkeep
