@@ -21,7 +21,7 @@
 
 A **Língua Brasileira de Sinais (LIBRAS)** é a língua oficial da comunidade surda no Brasil, reconhecida pela Lei nº 10.436/2002. Apesar de seu reconhecimento legal, ainda há uma barreira significativa de comunicação entre surdos e ouvintes, e o desenvolvimento de ferramentas automáticas de tradução visual contribui diretamente para a acessibilidade.
 
-Este projeto propõe utilizar o modelo **YOLO (You Only Look Once)** para a detecção do alfabeto manual em LIBRAS — um conjunto de 26 configurações de mão correspondentes às letras A–Z. Diferente do ASL (American Sign Language), o alfabeto LIBRAS possui particularidades em letras dinâmicas (H, J, K, X, Y, Z), o que justifica a necessidade de um modelo treinado especificamente para o contexto brasileiro.
+Este projeto propõe utilizar o modelo **YOLO (You Only Look Once)** para a detecção do alfabeto manual em LIBRAS. Diferente do ASL (American Sign Language), o alfabeto LIBRAS possui particularidades em letras dinâmicas (que envolvem movimento), o que justifica a necessidade de um modelo treinado especificamente com dados brasileiros.
 
 ### Justificativa da classe inédita
 
@@ -35,15 +35,15 @@ As 26 classes do alfabeto manual LIBRAS **não estão presentes** nas 80 categor
 
 | Atributo | Valor |
 |---|---|
-| Fonte | _Roboflow Universe — link do dataset_ |
-| Total de imagens | _preencher_ |
+| Fonte | [Projeto LIBRAS — Roboflow](https://universe.roboflow.com/gomes-project/projeto-libras) |
+| Formato | YOLO Detection (imagens + bounding boxes) |
+| Total de imagens | _preencher após download_ |
 | Treino | _preencher_ |
 | Validação | _preencher_ |
 | Teste | _preencher_ |
-| Número de classes | _preencher (provavelmente 26)_ |
-| Formato | YOLO (bounding box + classe) |
-| Pré-processamento | _Auto-orientação, redimensionamento, etc._ |
-| Data augmentation | _Aplicada no Roboflow / aplicada pelo YOLO durante o treino_ |
+| Número de classes | _preencher (verificar no data.yaml)_ |
+| Pré-processamento | _conforme aplicado no Roboflow (auto-orient, resize)_ |
+| Data augmentation | _preencher (no Roboflow + Ultralytics defaults)_ |
 
 #### Distribuição de classes
 
@@ -65,12 +65,12 @@ Comente eventuais desbalanceamentos: alguma letra com muito mais ou menos exempl
 | Hiperparâmetro | Valor | Justificativa |
 |---|---|---|
 | Arquitetura | YOLOv8m | Equilíbrio entre acurácia e tempo de treino na T4 |
-| Pré-treinado em | COCO | Transfer learning padrão |
+| Pré-treinado em | COCO | Transfer learning padrão para detection |
 | Épocas | 50 | Suficiente para convergência com early stopping |
 | Batch size | 16 | Limite da memória da T4 para imgsz=640 |
 | Image size | 640 × 640 | Padrão YOLO, bom equilíbrio detalhe/velocidade |
 | Otimizador | SGD (default) | Padrão Ultralytics |
-| Patience (early stop) | 15 | Para evitar overfitting tardio |
+| Patience (early stop) | 15 | Evita overfitting tardio |
 | Data augmentation | HSV, flip, mosaic (Ultralytics defaults) | _comentar se ajustou_ |
 
 ---

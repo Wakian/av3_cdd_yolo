@@ -2,14 +2,21 @@
 *.pt
 models/
 
-# Dataset baixado (vem do Roboflow no Colab)
+# Dataset baixado do Roboflow (no Colab vai pra /content)
+# Localmente: ignorar qualquer pasta de dataset antigo/teste
 dataset/
+train/
+val/
+test/
+Projeto-Libras-*/
+projeto-libras-*/
 *.zip
 
 # Saidas do Ultralytics
 runs/
 yolov8*.pt
 yolo11*.pt
+*-cls.pt
 
 # Caches Python
 __pycache__/

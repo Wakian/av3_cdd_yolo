@@ -17,10 +17,11 @@ Depois de treinar no Colab, baixe o zip `artefatos_libras.zip` gerado pela últi
 | `F1_curve.png` | Curva F1 × Confiança |
 | `P_curve.png` | Curva Precisão × Confiança |
 | `R_curve.png` | Curva Revocação × Confiança |
-| `val_*.png` | Mesmas curvas/matrizes calculadas no conjunto de teste |
+| `test_*.png` | Mesmas curvas/matrizes calculadas no conjunto de teste |
+| `train_batch0.jpg` | Batch de treino com data augmentation aplicada |
 | `labels.jpg` | Distribuição de classes e densidade de bboxes |
 | `metricas_por_classe.csv` | Tabela de métricas separadas por letra |
-| `class_distribution.png` | Gráfico de barras do balanceamento |
+| `class_distribution.png` | Gráfico de barras do balanceamento de classes |
 | `test_samples.png` | Amostras do conjunto de teste com bboxes ground-truth |
 | `predicoes_reais.png` | Predições nas fotos capturadas pela equipe |
 
