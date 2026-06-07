@@ -27,11 +27,19 @@ __pycache__/
 .DS_Store
 Thumbs.db
 desktop.ini
+*:Zone.Identifier
 
 # IDE
 .vscode/
 .idea/
 
+# Backup
+backup/
+
 # Mantem placeholders das pastas vazias
 !real_world_test/images/.gitkeep
 !results/.gitkeep
+
+# Mantem o README de instrucoes da pasta models (mas ignora os pesos *.pt)
+!models/
+!models/README.md
