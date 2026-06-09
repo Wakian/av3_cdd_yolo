@@ -6,7 +6,7 @@ Projeto final da disciplina de **Ciência de Dados** — treinamento de um model
 
 ---
 
-## 👥 Integrantes
+## 👥 Integrantes - Grupo A
 
 - Diego Benevides Fontenele
 - Eduardo Jorge Andrade Mourão Oliveira

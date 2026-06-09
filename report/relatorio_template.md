@@ -4,12 +4,13 @@
 
 - **Título:** Detecção de sinais de LIBRAS com YOLO
 - **Disciplina:** Ciência de Dados — Projeto 3 (Deep Learning)
-- **Integrantes:**
-  - Diego Benevides Fontenele
-  - Eduardo Jorge Andrade Mourão Oliveira
-  - Ian Sampaio Lira Waki
-  - João Arthur Veras Barros Dias
-- **Repositório GitHub:** **⬛ PREENCHER — <INSERIR LINK PÚBLICO DO REPOSITÓRIO> (OBRIGATÓRIO, em destaque no topo)**
+- **Integrantes - Grupo A:**
+  - Diego Benevides Fontenele (2310381)
+  - Eduardo Jorge Andrade Mourão Oliveira (2310384)
+  - Ian Sampaio Lira Waki (2310398)
+  - João Arthur Veras Barros Dias (2315431)
+- **Repositório GitHub:** **https://github.com/Wakian/av3_cdd_yolo**
+- **Data:** 07/06/2026
 
 ---
 
@@ -247,7 +248,7 @@ threshold visível no canto).
 
 ![Detecção em tempo real — A (0,57)](../real_world_test/images/snapshot_20260606_155609.jpg)
 
-**Setup do teste:** webcam local, fundo neutro (parede clara), mão posicionada em
+**Setup do teste:** webcam local, mão posicionada em
 destaque no quadro, threshold de confiança em 0,35.
 
 **Análise das detecções:**
