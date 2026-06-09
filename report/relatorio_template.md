@@ -1,9 +1,10 @@
-# Relatório Técnico — Detecção de LIBRAS com YOLO
+# Relatório Técnico Projeto 3 — Detecção de LIBRAS com YOLO
 
 ## 1. Identificação
 
 - **Título:** Detecção de sinais de LIBRAS com YOLO
-- **Disciplina:** Ciência de Dados — Projeto 3 (Deep Learning)
+- **Disciplina:** T326-36/37 Ciência dos dados
+- **Professor:** Túlio Rodrigues Ribeiro
 - **Integrantes - Grupo A:**
   - Diego Benevides Fontenele (2310381)
   - Eduardo Jorge Andrade Mourão Oliveira (2310384)
