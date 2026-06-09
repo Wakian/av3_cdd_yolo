@@ -59,7 +59,7 @@ av3_cdd_yolo/
 │   └── images/                  # Snapshots reais capturados pela equipe (webcam)
 ├── results/                     # Métricas, gráficos, matriz de confusão e predições
 ├── report/
-│   └── relatorio_template.md    # Relatório técnico (base para o PDF)
+│   └── relatorio_template.md    # Relatório técnico em md
 └── .gitignore
 ```
 
