@@ -118,11 +118,11 @@ O projeto tem **dois notebooks** com papéis diferentes:
 
 **1. Distribuição de classes no dataset**
 
-![Distribuição de classes](class_distribution.png)
+![Distribuição de classes](results/class_distribution.png)
 
 **2. Amostras do conjunto de teste (com caixas verdadeiras)**
 
-![Amostras de teste](test_samples.png)
+![Amostras de teste](results/test_samples.png)
 
 **3. Curvas de treinamento (loss, precisão, recall, mAP por época)**
 
