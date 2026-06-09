@@ -10,7 +10,6 @@
   - Ian Sampaio Lira Waki (2310398)
   - João Arthur Veras Barros Dias (2315431)
 - **Repositório GitHub:** **https://github.com/Wakian/av3_cdd_yolo**
-- **Data:** 07/06/2026
 
 ---
 
