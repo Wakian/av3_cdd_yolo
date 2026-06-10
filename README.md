@@ -82,8 +82,6 @@ O projeto tem **dois notebooks** com papéis diferentes:
 5. A última célula gera `artefatos_libras.zip`. Baixe-o e descompacte o conteúdo em `results/`.
 6. Coloque o `best.pt` (de `runs/detect/libras_yolov8m/weights/`) em `models/best.pt`.
 
-> ⚠️ O notebook precisa ser baixado do Colab **já executado** (com as saídas/gráficos salvos), pois o requisito do projeto é entregar o `.ipynb` com todo o código executado.
-
 ### 2. Teste em tempo real — `YOLO_LIBRAS_webcam.ipynb` (local)
 
 1. Tenha o `best.pt` em `models/best.pt`.
