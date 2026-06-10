@@ -358,11 +358,3 @@ tempo real via webcam, com material capturado pela própria equipe.
 - Combinar com landmarks de mão (MediaPipe Hands) como features adicionais.
 
 ---
-
-## 7. Referências
-
-- Ultralytics YOLO Documentation. https://docs.ultralytics.com/
-- Roboflow Universe — Projeto LIBRAS. https://universe.roboflow.com/gomes-project/projeto-libras
-- Lei nº 10.436/2002 — Reconhecimento da LIBRAS. http://www.planalto.gov.br/ccivil_03/leis/2002/l10436.htm
-- COCO Dataset Classes. https://cocodataset.org/
-- _Outras referências usadas (artigos, tutoriais)._

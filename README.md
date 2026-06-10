@@ -152,12 +152,6 @@ O projeto tem **dois notebooks** com papéis diferentes:
 > As capturas mostram o overlay do sistema (FPS, threshold, nº de detecções) e a
 > bounding box com o label desenhados em tempo real.
 
-## 📄 Relatório técnico
-
-O relatório técnico completo está em [`report/relatorio_template.md`](report/relatorio_template.md),
-que serve de base para o PDF entregue via AVA. O link público deste repositório
-consta em destaque no topo do relatório (requisito obrigatório do projeto).
-
 ## 🛠️ Stack
 
 - Python 3 + [Ultralytics YOLO](https://docs.ultralytics.com/) (YOLOv8m, detection)
